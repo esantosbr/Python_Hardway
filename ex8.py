@@ -1,5 +1,10 @@
 formatter = "{} {} {} {}"
-
+"""
+This code shows that using format function permit
+you to pass arguments witch match up the four
+{}s in the formatter variable. It doesn't matter
+witch type the arguments are.
+"""
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, False, True))
