@@ -13,3 +13,13 @@ print("The script is called:", script)
 print("Your first variable is:", first)
 print("Your second variable is:", second)
 print("Your third variable is:", third)
+
+# Combining input() function
+fourth = input("Enter the fourth value: ")
+print("Your fourth variable is: ", fourth)
+"""
+argv is used to pass values on the command line,
+when start running .py file.
+imput() is used to pass values while the script
+is running. After it has started.
+"""
