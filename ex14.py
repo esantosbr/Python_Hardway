@@ -1,18 +1,18 @@
 from sys import argv
 
-script, user_name = argv
-prompt = '>'
+script, user_name, year = argv
+answer = 'Your answer> '
 
-print(f"Hi {user_name}, I'm the {script} script.")
+print(f"Hi {user_name}, I'm the {script} script. We are in {year}")
 print("I'd like to ask you a few questions.")
 print(f"Do you like me {user_name}?")
-likes = input(prompt)
+likes = input(answer)
 
 print(f"Where do you live {user_name}?")
-lives = input(prompt)
+lives = input(answer)
 
 print("What kind of computer do you have?")
-computer = input(prompt)
+computer = input(answer)
 
 print(f"""
 Alright, so you said {likes} about liking me.
