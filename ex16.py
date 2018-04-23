@@ -7,10 +7,19 @@ print("If you don't want that, hit CTRL-C (^C).")
 print("If you do want that, hit RETURN")
 
 input("?")
-
+"""
+Open the file provided when this application was started
+in write mode. If file don't exist it'll be created.
+    'r'       open for reading (default)
+    'w'       open for writing, truncating the file first
+    'x'       create a new file and open it for writing
+    'a'       open for writing, appending to the end of the file if it exists
+    'b'       binary mode
+    't'       text mode (default)
+    '+'       open a disk file for updating (reading and writing)
+    'U'       universal newline mode (deprecated)
+"""
 print("Opening the file...")
-# Open the file provided when this application was started
-# in write mode. If file don't exist it'll be created.
 target = open(filename, 'w')
 # Truncating a file to zero means discarding all its content:
 # the file size becomes 0, so it becomes empty,
