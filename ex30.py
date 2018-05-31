@@ -21,3 +21,8 @@ if people > trucks:
     print("Alright, let's just take the trucks.")
 else:
     print("Fine, let's stay home then.")
+
+if (cars + trucks > people):
+    print("There are more vehicles than people.")
+else:
+    print("Someone will stay at home.")
